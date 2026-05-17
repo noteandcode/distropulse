@@ -9,6 +9,14 @@ st.title("🚀 DistroPulse")
 st.subheader("Growth & Distribution Diagnostics for Developers")
 st.write("Analyze your first 30 days of data to find where your growth bottlenecks are and get actionable next steps.")
 
+st.info(
+    "⚠️ **Disclaimer:** The results, diagnoses, and recommendations provided by DistroPulse are purely illustrative "
+    "and based on simplified models. They do not constitute professional business, financial, or technical advice. "
+    "All outputs are approximate estimates and may not reflect real-world outcomes. "
+    "By using this tool, you acknowledge that the creators accept no liability whatsoever for any decisions made "
+    "or actions taken based on the information displayed here."
+)
+
 st.divider()
 
 # 1. Columns for input data
