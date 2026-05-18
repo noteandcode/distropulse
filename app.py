@@ -101,3 +101,29 @@ st.line_chart(chart_data.set_index('Day'))
 st.write("### 🛠️ Next Tactical Moves (Your To-Do List)")
 for item in todo:
     st.checkbox(item, value=False)
+    import streamlit as st
+import streamlit.components.v1 as components
+
+# Oldal címe
+st.subheader("Do you need a more advanced solution? Sign up to our waitlist!")
+
+# Ide másold a Tally-ból kapott linket (cseréld le a YOUR_FORM_ID részt)
+tally_url = "https://tally.so/r/xXRRbk"
+
+# A Tally iframe beágyazása a Streamlitbe
+components.html(
+    f"""
+    <iframe 
+        src="{tally_url}" 
+        width="100%" 
+        height="500" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0" 
+        title="Waitlist">
+    </iframe>
+    """,
+    height=550, # Kicsit nagyobb, mint az iframe, hogy ne legyen dupla görgetősáv
+    scrolling=True
+)
+
