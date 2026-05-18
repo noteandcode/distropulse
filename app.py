@@ -104,8 +104,7 @@ for item in todo:
     import streamlit as st
 import streamlit.components.v1 as components
 
-# Oldal címe
-st.subheader("Do you need a more advanced solution? Sign up to our waitlist!")
+
 
 
 
