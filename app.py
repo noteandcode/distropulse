@@ -103,7 +103,7 @@ for item in todo:
     st.checkbox(item, value=False)
     import streamlit as st
 import streamlit.components.v1 as components
-
+analytics_id = st.secrets["ANALYTICS_ID"]
 
 
 
